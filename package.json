@@ -1,0 +1,41 @@
+{
+  "name": "football_fanbook_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.629.0",
+    "@aws-sdk/s3-request-presigner": "^3.629.0",
+    "@google-cloud/translate": "^8.5.0",
+    "@google/generative-ai": "^0.17.0",
+    "aws-sdk": "^2.1673.0",
+    "axios": "^1.7.3",
+    "body-parser": "^1.20.2",
+    "deepl-node": "^1.13.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "google-translate": "^3.0.0",
+    "he": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.3",
+    "natural": "^7.1.0",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.52.7",
+    "translate-google": "^1.5.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
